@@ -8,7 +8,7 @@
 
 .projetos_container .content .titulo {
     background-color: black;
-    font-size: 5rem;
+    font-size: 4rem;
     padding: 20px 50px;
     margin-top: 2rem;
     border-radius: 5px;
@@ -31,7 +31,14 @@
     border-radius: 5px;
     height: 21rem;
     width: 15rem;
+    z-index: 0;
+    cursor: pointer;
 }
+
+.projetos_container .content .content_cards .card:hover {
+    transform: translateY(-5px) translateX(2px); 
+}
+
 
 .projetos_container .content .content_cards .card img {
     background-color: white;
@@ -41,7 +48,12 @@
 }
 
 .projetos_container .content .content_cards .card h2 {
-    margin: 15px;
+    margin: 12px;
+}
+
+.projetos_container .content .content_cards .card p {
+    font-size: 10px;
+    padding: 5px;
 }
 
 .projetos_container .content button {

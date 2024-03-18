@@ -31,7 +31,7 @@
 .contato_container .content .titulo h2 {
     background-color: black;
     color: white;
-    font-size: 80px;
+    font-size: 4rem;
     padding: 20px 70px;
     border-radius: 5px;
 }
@@ -71,7 +71,7 @@
     padding: 10px;
     border-radius: 5px;
     font-weight: bold;
-    height: 180px;
+    height: 160px;
     resize: none;
 }
 
@@ -80,9 +80,16 @@
     color: white;
     padding: 12px 40px;
     font-size: 25px;
+    height: 4rem;
     border-radius: 5px;
     border: none;
     cursor: pointer;
+}
+
+.contato_container .content .bloco_contato form button:hover {
+    background-color: transparent;
+    border: 2.5px solid black;
+    color: rgb(0, 0, 0);
 }
 
 .contato_container .content .bloco_contato .icon {
@@ -108,5 +115,5 @@
 
 .contato_container .content .bloco_contato p {
     font-weight: bold;
-    font-size: 10px;
+    font-size: 0px;
 }
