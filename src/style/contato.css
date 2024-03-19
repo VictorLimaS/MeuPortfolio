@@ -26,6 +26,12 @@
     align-items: center;
     gap: 100px;
     padding: 20px;
+    overflow: hidden;
+}
+
+.contato_container .content .titulo .titulo-effect {
+    display: flex;
+    align-items: center;
 }
 
 .contato_container .content .titulo h2 {
@@ -44,6 +50,7 @@
     border: 5px solid black;
     border-radius: 5px;
     padding: 25px 60px;
+    overflow: hidden;
 }
 
 .contato_container .content .bloco_contato form {
