@@ -1,5 +1,4 @@
 main {
-    height: 100vh;
     border-radius: 5px;
     overflow-y: auto;
     background-color: white;
@@ -38,10 +37,11 @@ main::-webkit-scrollbar {
 
 .main_container .button_main {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 7%;
     align-items: center;
     font-size: 25px;
-    width: 50%;
+    width: 100%;
     height: 50px;
 }
 
