@@ -279,7 +279,10 @@
     }
 
     .contato_container .content .bloco_contato form {
-        width: 12rem;
+        width: 100%;
     }
-    
+
+    .contato_container .content .bloco_contato {
+        padding: 10px 10px;
+    }
 }
