@@ -32,7 +32,7 @@
                 </div>
             </nav>
         </header>
-        <main>
+    <main class="mainTeste">
             <section class="main_container" id="inicio">
                 <div class="content">
                     <h3><span id="horario">Boa Tarde,</span> tudo bem ?</h3>
@@ -49,11 +49,11 @@
             <section class="sobre_container" id="sobre">
                 <div class="content">
                     <div class="fundo_text">
-                        <h2 class="box">Esse sou eu</h2>
-                        <div><img src="src/img/Design_sem_nome__34_-removebg-preview.png" alt="foto"></div>
+                        <h2 class="box" id="ef-1">Esse sou eu</h2>
+                        <div class="box" id="ef-2"><img src="src/img/Design_sem_nome__34_-removebg-preview.png" alt="foto"></div>
                     </div>
                     <div class="sobre">
-                        <p>E aí, galera! Eu sou o Victor Lima, o cara que vive no litoral de São Paulo, no Guarujá☀️, onde o
+                        <p class="sobre-texto box" id="ef-3">E aí, galera! Eu sou o Victor Lima, o cara que vive no litoral de São Paulo, no Guarujá☀️, onde o
                             sol brilha forte e as ondas🏄‍♂️ são perfeitas para uma boa corrida na praia! Tenho 24 anos e sou
                             completamente apaixonado por tecnologia e games - é como se meu coração batesse no ritmo dos
                             bits e bytes!
@@ -72,49 +72,54 @@
 
             <section class="projetos_container" id="projetos">
                 <div class="content">
-                    <h2 class="titulo">Meus Projetos</h2>
+                    <h2 class="titulo box" id="ef-4">Meus Projetos</h2>
                     <div class="content_cards">
-                        <div class="card">
+                        <div class="card box" id="ef-5">
                             <img src="src/img/creek_kid_maker_sticker.png" alt="">
                             <h2>Login</h2>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, qui?</p>
                         </div>
-                        <div class="card">
+                        <div class="card box" id="ef-6">
                             <img src="src/img/creek_kid_maker_sticker.png" alt="">
                             <h2>Login</h2>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, qui?</p>
                         </div>
-                        <div class="card">
+                        <div class="card box" id="ef-7">
                             <img src="src/img/creek_kid_maker_sticker.png" alt="">
                             <h2>Login</h2>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, qui?</p>
                         </div>
                     </div>
 
-                    <button>Ver mais +</button>
+                    <button class="box" id="ef-8">Ver mais +</button>
                 </div>
             </section>
 
             <section class="contato_container" id="contato">
                 <div class="content">
                     <div class="titulo">
-                        <h2>Me chama ai</h2>
-                        <ion-icon name="chatbubbles-outline"></ion-icon>
+                        <div class="titulo-effect box" id="ef-9">
+                            <h2>Me chama ai</h2>
+                            <ion-icon name="chatbubbles-outline"></ion-icon>
+                        </div>
                     </div>
 
                     <div class="bloco_contato">
-                        <form action="https://api.staticforms.xyz/submit" method="post">
-                            <input type="text" name="Nome" placeholder="Coloca teu número aqui" required>
-                            <input type="text" name="Email" placeholder="Pode colocar seu Email" required>
-                            <textarea name="" placeholder="Manda um oi"></textarea  required>
-                            <button type="submit">Enviar</button>
-                        </form>
+                        <div class="container-form box" id="ef-10">
 
-                        <ion-icon class="icon icon1" name="logo-html5"></ion-icon>
-                        <ion-icon class="icon icon2" name="logo-css3"></ion-icon>
-                        <ion-icon class="icon icon3" name="logo-javascript"></ion-icon>
-                        <ion-icon class="icon icon4" name="logo-vue"></ion-icon>
-                        <p>minhas hard-skill<p>
+                            <form action="https://api.staticforms.xyz/submit" method="post">
+                                <input type="text" name="Nome" placeholder="Coloca teu número aqui" required>
+                                <input type="text" name="Email" placeholder="Pode colocar seu Email" required>
+                                <textarea name="" placeholder="Manda um oi"></textarea  required>
+                                <button type="submit">Enviar</button>
+                            </form>
+    
+                            <ion-icon class="icon icon1" name="logo-html5"></ion-icon>
+                            <ion-icon class="icon icon2" name="logo-css3"></ion-icon>
+                            <ion-icon class="icon icon3" name="logo-javascript"></ion-icon>
+                            <ion-icon class="icon icon4" name="logo-vue"></ion-icon>
+                            <p>minhas hard-skill<p>
+                        </div>
                     </div>
                 </div>
             </section>
