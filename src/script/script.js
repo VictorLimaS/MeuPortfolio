@@ -45,7 +45,7 @@ atualizarTexto();
 // SCROLL LENTO DA NAV
 
 document.addEventListener("DOMContentLoaded", function () {
-    const nav = document.querySelectorAll("header nav ul li a");
+    const nav = document.querySelectorAll("ul li a");
 
     nav.forEach(link => {
         link.addEventListener("click", function (event) {
@@ -61,6 +61,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 });
             }
         });
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const linkContato = document.querySelector('.button_main a');
+    const secaoContato = document.getElementById('contato');
+
+    linkContato.addEventListener('click', function (event) {
+        event.preventDefault();
+
+        secaoContato.scrollIntoView({ behavior: 'smooth' });
     });
 });
 
@@ -85,29 +97,40 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("horario").textContent = mensagem;
 });
 
-// EFEITO DE OPACIDADE NAS SECTION
+// LINK DA NAV BAR
 
-const box = document.querySelector('.box');
-const scrollTrigger = 50; 
+const iconesLink = document.querySelectorAll('.social_media .icon');
 
-console.log(box)
+iconesLink.forEach(icon => {
+    icon.addEventListener('click', () => {
+        let link;
+        if (icon.id === 'whats') {
+            link = 'https://wa.me/5513991822130';
+        } else if (icon.id === 'linkedin') {
+            link = 'https://www.linkedin.com/in/victor-lima1999/';
+        } else {
+            link = 'https://github.com/VictorLimaS';
+        }
 
-function checkVisibility() {
-    const scrollDistance = window.scrollY;
-    console.log(scrollDistance)
-
-    if (scrollDistance > scrollTrigger) {
-        box.classList.add('visible');
-    } else {
-        box.classList.remove('visible');
-    }
-}
-
-window.addEventListener('scroll', checkVisibility);
-window.addEventListener('resize', checkVisibility);
-window.addEventListener('DOMContentLoaded', checkVisibility);
-
-// Verificar a visibilidade na carga inicial da página
-window.addEventListener('DOMContentLoaded', () => {
-    checkVisibility();
+        if (link) {
+            window.open(link, '_blank');
+        }
+    });
 });
+
+// MENU HAMBUGUER 
+
+const menuToggle = document.querySelector('.menu-toggle');
+
+menuToggle.addEventListener('click', function() {
+    this.classList.toggle('open');
+});
+
+
+
+const menuBurguer = document.querySelector('.menu-toggle');
+const navMenu = documen.querySelector()
+
+menuBurguer.addEventListener('click', function() {
+
+} )
