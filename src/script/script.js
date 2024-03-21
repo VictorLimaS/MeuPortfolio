@@ -121,6 +121,9 @@ iconesLink.forEach(icon => {
 // MENU HAMBUGUER 
 
 const menuToggle = document.querySelector('.menu-toggle');
+const menuBurguer = document.querySelector('.menu-toggle');
+const navMenu = document.querySelector('.nav_menu');
+let clicado = false;
 
 menuToggle.addEventListener('click', function () {
     this.classList.toggle('open');
@@ -128,9 +131,18 @@ menuToggle.addEventListener('click', function () {
 
 // APARECER O NAV
 
-const menuBurguer = document.querySelector('.menu-toggle');
-const navMenu = document.querySelector('.nav_menu');
-
 menuBurguer.addEventListener('click', function () {
     navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
+    menuBurguer.classList.add('active');
 });
+
+navMenu.addEventListener('click', function () {
+    navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
+    clicado = true
+    if (clicado) {
+        menuBurguer.classList.remove('active');
+        menuToggle.classList.toggle('open');
+    }
+});
+
+
