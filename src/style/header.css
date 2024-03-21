@@ -157,7 +157,7 @@ header nav ul li a:hover {
     position: fixed;
     justify-content: center;
     align-items: center;
-    background-color: rgba(248, 248, 248, 0.521);
+    background-color: white;
     z-index: 1;
     transition: top 0.3s ease-in-out;
 }
