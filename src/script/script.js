@@ -122,15 +122,15 @@ iconesLink.forEach(icon => {
 
 const menuToggle = document.querySelector('.menu-toggle');
 
-menuToggle.addEventListener('click', function() {
+menuToggle.addEventListener('click', function () {
     this.classList.toggle('open');
 });
 
-
+// APARECER O NAV
 
 const menuBurguer = document.querySelector('.menu-toggle');
-const navMenu = documen.querySelector()
+const navMenu = document.querySelector('.nav_menu');
 
-menuBurguer.addEventListener('click', function() {
-
-} )
+menuBurguer.addEventListener('click', function () {
+    navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
+});
