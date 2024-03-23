@@ -58,8 +58,8 @@
     }
 
     .sobre_container .content .sobre {
-        width: 90%;
-        font-size: 15px;
+        width: 85%;
+        font-size: 17px;
     }
 
     .projetos_container .content .titulo {
@@ -86,13 +86,17 @@
         height: 100vh;
     }
 
-    
+
 }
 
 @media only screen and (max-width: 910px) {
 
+    .main_container {
+        padding-top: 7rem;
+    }
+
     .main_container .content h1 {
-        font-size: 5rem;
+        font-size: 6.3rem;
     }
 
     .main_container .content h3 {
@@ -127,14 +131,24 @@
         font-size: 15px;
     }
 
+    .contato_container .content .titulo h2 {
+        font-size: 1.5rem;
+    }
+
+
     .contato_container .content .bloco_contato form {
         width: 27rem;
     }
 }
 
 @media only screen and (max-width: 670px) {
+
+    .main_container {
+        padding-top: 9rem;
+    }
+
     .main_container .content h1 {
-        font-size: 3.5rem;
+        font-size: 5.5rem;
     }
 
     .main_container .content h3 {
@@ -147,6 +161,10 @@
 
     .main_container .button_main a {
         font-size: 10px;
+    }
+
+    .sobre_container .content {
+        padding-top: 5rem;
     }
 
     .sobre_container .content img {
@@ -162,6 +180,10 @@
         width: 95%;
         font-size: 17px;
         padding: 20px;
+    }
+
+    .projetos_container .content {
+        margin-top: 5rem;
     }
 
     .projetos_container .content .titulo {
@@ -267,7 +289,7 @@
         font-size: 1rem;
         padding: 20px 10px;
     }
-    
+
     .contato_container .content .titulo ion-icon {
         font-size: 5rem;
     }

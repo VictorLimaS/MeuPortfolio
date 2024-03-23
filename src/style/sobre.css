@@ -3,13 +3,14 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    height: 100%;
+    margin-top: 5rem;
 }
 
 .sobre_container .content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 3rem;
 }
 
 .sobre_container .content .fundo_text {
@@ -33,7 +34,7 @@
 }
 
 .sobre_container .content img {
-    width: 17rem;   
+    max-width: 17rem;   
     margin: -1.6rem;
 }
 
