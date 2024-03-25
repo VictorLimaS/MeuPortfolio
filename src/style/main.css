@@ -6,10 +6,6 @@ main {
     height: calc(100vh - 40px);
 }
 
-main::-webkit-scrollbar {
-    width: 0px;
-}
-
 .main_container {
     display: flex;
     flex-direction: column;
