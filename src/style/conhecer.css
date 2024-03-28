@@ -1,5 +1,5 @@
 .conhecer {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -31,8 +31,21 @@
     border: 5px solid black;
 }
 
+.conhecer .conhecer_content .imgs .content {
+    background-image: url('/src/img/foto1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 27rem;
+    height: 30rem;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 5px solid black;
+}
+
 .conhecer .conhecer_content .text {
     font-size: 17px;
+    margin-bottom: 20px;
 }
 
 .conhecer .conhecer_buttons {
@@ -66,18 +79,23 @@
 }
 
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1180px) {
     .conhecer {
         margin: 0;
         height: 100%;
+    }
+
+    .conhecer .conhecer_content .text {
+        font-size: 15.5px;
+        width: 50%;
     }
 }
 
 @media only screen and (max-width: 910px) {
 
-    .conhecer .conhecer_content .imgs .content img {
-        width: 17rem;
-        height: 20rem;
+    .conhecer .conhecer_content .imgs .content {
+        width: 20rem;
+        height: 23rem;
     }
 
     .conhecer .conhecer_content .text {
@@ -86,12 +104,11 @@
     }
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 690px) {
 
-    .conhecer .conhecer_content .imgs .content img {
-        width: 18rem;
-        height: 17rem;
-
+    .conhecer .conhecer_content .imgs .content {
+        width: 17rem;
+        height: 20rem;
     }
 
     .conhecer .conhecer_content {
@@ -108,7 +125,7 @@
 }
 
 @media only screen and (max-width: 510px) {
-    .conhecer .conhecer_content .imgs .content img {
+    .conhecer .conhecer_content .imgs .content {
         width: 15rem;
         height: 15rem;
     }
@@ -121,7 +138,7 @@
         display: flex;
         gap: 10px;
     }
-    
+
     .conhecer .conhecer_buttons .buttons button {
         padding: 7px 7px;
         font-size: 15px;

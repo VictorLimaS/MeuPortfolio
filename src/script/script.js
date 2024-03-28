@@ -176,4 +176,26 @@ navMenu.addEventListener('click', function () {
     }
 });
 
+// MUDAR FOTO DO CONHECER 
 
+document.addEventListener('DOMContentLoaded', function () {
+    const images = [
+        '/src/img/foto2.jpg',
+        '/src/img/foto3.jpg',
+        '/src/img/foto1.jpg',
+        '/src/img/foto4.jpg',
+        '/src/img/foto5.jpg'
+    ];
+
+    let index = 0;
+    const imgElement = document.querySelector('.conhecer .conhecer_content .imgs .content');
+
+    setInterval(() => {
+        imgElement.classList.add('fade');
+        setTimeout(() => {
+            imgElement.style.backgroundImage = `url(${images[index]})`;
+            imgElement.classList.remove('fade');
+            index = (index + 1) % images.length;
+        }, 500);
+    }, 3000);
+});
