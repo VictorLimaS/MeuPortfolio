@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="src/style/projetos.css">
     <link rel="stylesheet" href="src/style/contato.css">
     <link rel="stylesheet" href="src/style/mediaquery.css">
+    <link rel="stylesheet" href="src/style/footer.css">
+    <link rel="stylesheet" href="src/style/conhecer.css">
     <title>Portfolio</title>
 </head>
 
@@ -37,7 +39,7 @@
         <div class="menu-toggle">
             <div class="hamburger"></div>
         </div>
-        <div class="nav_menu" >
+        <div class="nav_menu">
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#sobre">Sobre</a></li>
@@ -58,8 +60,40 @@
                 <h3>e eu sou um <span id="apagar">Desenvolvedor Front-end</span></h3>
             </div>
             <div class="button_main">
-                <button>Me Conhecer +</button>
+                <button class="open_conhecer">Me Conhecer +</button>
                 <a>Entrar em contato ▼</a>
+            </div>
+
+            <div class="conhecer">
+                <div class="conhecer_content">
+                    <div class="imgs">
+                        <span class="content"><img
+                                src="src/img/Imagem do WhatsApp de 2024-03-13 à(s) 00.09.59_3755665a.jpg "
+                                alt=""></span>
+                    </div>
+                    <div class="text">
+                        <p> Olá! Me chamo Victor Lima e tenho uma grande paixão por esportes, games, tecnologia, viagens
+                            e livros. Estou em um momento de transição de carreira e atualmente estou focado nos estudos
+                            para essa nova etapa. Apesar dos desafios, sou motivado pela oportunidade de aprender e
+                            crescer profissionalmente.
+                            
+                            Além disso, sou um jovem pai de um filho lindo de 3 anos, o que me traz muita alegria e
+                            motivação para ser a melhor versão de mim mesmo. Passar tempo com minha família é uma
+                            prioridade para mim, assim como fazer novas amizades e explorar novas experiências.
+
+                            Nos meus momentos de lazer, gosto de relaxar assistindo a filmes e ouvindo música. Acredito
+                            que aprender é uma jornada constante, e tanto ensinar quanto aprender são aspectos
+                            importantes da minha vida. Se tiver interesse, fique à vontade para dar uma olhada no meu
+                            currículo e conhecer um pouco mais sobre minha trajetória e experiências.
+                        </p>
+                    </div>
+                </div>
+                <div class="conhecer_buttons">
+                    <div class="buttons">
+                        <button class="fechar_conhecer">Voltar</button>
+                        <button class="download">Curriculo</button>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -93,20 +127,20 @@
             <div class="content">
                 <h2 class="titulo">Meus Projetos</h2>
                 <div class="content_cards">
-                    <div class="card">
-                        <img src="src/img/creek_kid_maker_sticker.png" alt="">
-                        <h2>Login</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, qui?</p>
+                    <div class="card1 card">
+                        <img src="src/img/Captura de tela 2024-03-28 032222.png" alt="">
+                        <h2>Design de Interiores</h2>
+                        <p>Aplicação para uma cliente onde apresenta seus trabalhos.</p>
                     </div>
-                    <div class="card">
-                        <img src="src/img/creek_kid_maker_sticker.png" alt="">
-                        <h2>Login</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, qui?</p>
+                    <div class="card2 card">
+                        <img src="src/img/Captura de tela 2024-03-28 032254.png" alt="">
+                        <h2>Advogado</h2>
+                        <p>Aplicação onde os clientes podem entrar em contato com o prestador.</p>
                     </div>
-                    <div class="card">
-                        <img src="src/img/creek_kid_maker_sticker.png" alt="">
-                        <h2>Login</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, qui?</p>
+                    <div class="card3 card">
+                        <img src="src/img/Captura de tela 2024-03-28 032417.png" alt="">
+                        <h2>Spotify</h2>
+                        <p>Copia do Spotify com consumo de Api Fake.</p>
                     </div>
                 </div>
 
@@ -128,22 +162,18 @@
                         <textarea name="" placeholder="Manda um oi"></textarea  required>
                             <button type="submit">Enviar</button>
                         </form>
-
-                        <ion-icon class="icon icon1" name="logo-html5"></ion-icon>
-                        <ion-icon class="icon icon2" name="logo-css3"></ion-icon>
-                        <ion-icon class="icon icon3" name="logo-javascript"></ion-icon>
-                        <ion-icon class="icon icon4" name="logo-vue"></ion-icon>
-                        <p>minhas hard-skill<p>
                     </div>
                 </div>
             </section>
 
             <section class="footer_container">
                 <div class="social">
-
+                    <ion-icon class="whats" name="logo-whatsapp"></ion-icon>
+                    <ion-icon class="instagram" name="logo-instagram"></ion-icon>
+                    <ion-icon class="discord" name="logo-discord"></ion-icon>
                 </div>
                 <div class="direitos">
-
+                    <p>Victor Lima © Todos os direitos reservado</p>  
                 </div>
             </section>
         </main>

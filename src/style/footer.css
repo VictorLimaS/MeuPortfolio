@@ -1,0 +1,42 @@
+.footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin: 1rem;
+}
+
+.footer_container .social .whats {
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.footer_container .social .instagram {
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.footer_container .social .discord {
+    background-color:rgb(73, 73, 208);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 8px;   
+}
+
+@media only screen and (max-width: 910px) {
+    .footer_container {
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+    }
+}

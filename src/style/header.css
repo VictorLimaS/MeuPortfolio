@@ -82,25 +82,25 @@ header nav ul li a:hover {
     gap: 20px;
 }
 
- .social_media .icon {
+.social_media .icon {
     font-size: 35px;
     cursor: pointer;
     color: white;
 }
 
- .social_media .icon1 {
+.social_media .icon1 {
     background-color: green;
     border-radius: 50%;
     padding: 8px;
 }
 
- .social_media .icon2 {
+.social_media .icon2 {
     background-color: blue;
     border-radius: 50%;
     padding: 8px;
 }
 
- .social_media .icon3 {
+.social_media .icon3 {
     background-color: rgb(0, 0, 0);
     border-radius: 50%;
     padding: 8px;
@@ -118,7 +118,9 @@ header nav ul li a:hover {
     z-index: 2;
 }
 
-.hamburger, .hamburger::before, .hamburger::after {
+.hamburger,
+.hamburger::before,
+.hamburger::after {
     content: '';
     display: block;
     width: 30px;
@@ -128,7 +130,8 @@ header nav ul li a:hover {
     transition: transform 0.3s ease-in-out;
 }
 
-.hamburger::before, .hamburger::after {
+.hamburger::before,
+.hamburger::after {
     content: '';
     top: -8px;
 }

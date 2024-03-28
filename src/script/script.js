@@ -42,6 +42,38 @@ function deletarTexto() {
 
 atualizarTexto();
 
+// ME CONHECER
+
+document.addEventListener('DOMContentLoaded', function () {
+    const conhecer = document.querySelectorAll('.open_conhecer');
+
+    conhecer.forEach(function (card) {
+        card.addEventListener('click', function () {
+            document.querySelector('.conhecer').style.display = 'flex';
+        });
+    });
+
+    document.querySelector('.fechar_conhecer').addEventListener('click', function () {
+        document.querySelector('.conhecer').style.display = 'none';
+    });
+});
+
+// BAIXAR CURRICULO
+
+document.addEventListener('DOMContentLoaded', function () {
+    const btnDownload = document.querySelector('.download');
+
+    btnDownload.addEventListener('click', function () {
+        const link = document.createElement('a');
+        link.setAttribute('href', '/src/pdf/curriculo 2024.pdf');
+        link.setAttribute('download', '');
+        link.style.display = 'none';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    });
+});
+
 // SCROLL LENTO DA NAV
 
 document.addEventListener("DOMContentLoaded", function () {

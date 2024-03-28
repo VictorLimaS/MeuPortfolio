@@ -238,7 +238,11 @@
 
     .main_container .button_main {
         flex-direction: column;
-        gap: 50px;
+        gap: 40px;
+    }
+
+    .main_container .button_main button {
+        width: 12.5rem;
     }
 
 

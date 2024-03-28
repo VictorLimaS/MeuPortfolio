@@ -48,11 +48,13 @@
 }
 
 .projetos_container .content .content_cards .card h2 {
+    font-size: 15px;
+    font-weight: bold;
     margin: 12px;
 }
 
 .projetos_container .content .content_cards .card p {
-    font-size: 10px;
+    font-size: 12px;
     padding: 5px;
 }
 

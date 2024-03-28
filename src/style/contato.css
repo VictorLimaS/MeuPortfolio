@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    margin: 5rem 0;
+    margin: 7rem 0;
     background-color: white;
     color: rgb(0, 0, 0);
 }
@@ -87,30 +87,4 @@
     background-color: transparent;
     border: 2.5px solid black;
     color: rgb(0, 0, 0);
-}
-
-.contato_container .content .bloco_contato .icon {
-    margin-top: 2rem;
-    font-size: 2rem;    
-}
-
-.contato_container .content .bloco_contato .icon1 {
-    color: orangered;
-}
-
-.contato_container .content .bloco_contato .icon2 {
-    color: blue;
-}
-
-.contato_container .content .bloco_contato .icon3 {
-    color: yellow;
-}
-
-.contato_container .content .bloco_contato .icon4 {
-    color: rgb(75,180,131);
-}
-
-.contato_container .content .bloco_contato p {
-    font-weight: bold;
-    font-size: 0px;
 }
