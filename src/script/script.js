@@ -150,6 +150,28 @@ iconesLink.forEach(icon => {
     });
 });
 
+// LINK DO FOOTER
+document.addEventListener('DOMContentLoaded', function () {
+    const iconesLinkFooter = document.querySelectorAll('.social ion-icon');
+
+    iconesLinkFooter.forEach(icon => {
+        icon.addEventListener('click', () => {
+            let link;
+            if (icon.classList.contains('whats')) {
+                link = 'https://wa.me/5513991822130';
+            } else if (icon.classList.contains('instagram')) {
+                link = 'https://www.instagram.com/victiinnn/';
+            } else if (icon.classList.contains('discord')) {
+                link = 'https://discord.com/victiinnn';
+            }
+
+            if (link) {
+                window.open(link, '_blank');
+            }
+        });
+    });
+});
+
 // MENU HAMBUGUER 
 
 const menuBurguer = document.querySelector('.menu-toggle');

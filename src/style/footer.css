@@ -15,6 +15,7 @@
     font-size: 30px;
     border-radius: 50%;
     padding: 8px;
+    cursor: pointer;
 }
 
 .footer_container .social .instagram {
@@ -23,6 +24,7 @@
     font-size: 30px;
     border-radius: 50%;
     padding: 8px;
+    cursor: pointer;
 }
 
 .footer_container .social .discord {
@@ -31,6 +33,7 @@
     font-size: 30px;
     border-radius: 50%;
     padding: 8px;   
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 910px) {
