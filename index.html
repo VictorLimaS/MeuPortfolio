@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="src/style/mediaquery.css">
     <link rel="stylesheet" href="src/style/footer.css">
     <link rel="stylesheet" href="src/style/conhecer.css">
+    <link rel="stylesheet" href="src/style/scroll.css">
     <title>Portfolio</title>
 </head>
 
@@ -74,7 +75,7 @@
                             e livros. Estou em um momento de transição de carreira e atualmente estou focado nos estudos
                             para essa nova etapa. Apesar dos desafios, sou motivado pela oportunidade de aprender e
                             crescer profissionalmente.
-                            
+
                             Além disso, sou um jovem pai de um filho lindo de 3 anos, o que me traz muita alegria e
                             motivação para ser a melhor versão de mim mesmo. Passar tempo com minha família é uma
                             prioridade para mim, assim como fazer novas amizades e explorar novas experiências.
@@ -131,9 +132,9 @@
                         <p>Aplicação para uma cliente onde apresenta seus trabalhos.</p>
                     </div>
                     <div class="card2 card">
-                        <img src="src/img/Captura de tela 2024-03-28 032254.png" alt="">
-                        <h2>Advogado</h2>
-                        <p>Aplicação onde os clientes podem entrar em contato com o prestador.</p>
+                        <img src="src/img/Design sem nome (35).png" alt="">
+                        <h2>Mercado</h2>
+                        <p>Aplicação de um mercado interativo.</p>
                     </div>
                     <div class="card3 card">
                         <img src="src/img/Captura de tela 2024-03-28 032417.png" alt="">
@@ -142,7 +143,7 @@
                     </div>
                 </div>
 
-                <button>Ver mais +</button>
+                <button class="ver-mais">Ver mais +</button>
             </div>
         </section>
 
@@ -155,13 +156,15 @@
 
                 <div class="bloco_contato">
                     <form action="https://api.staticforms.xyz/submit" method="post">
-                        <input type="text" name="Nome" placeholder="Coloca teu número aqui" required>
-                        <input type="text" name="Email" placeholder="Pode colocar seu Email" required>
-                        <textarea name="" placeholder="Manda um oi"></textarea  required>
-                            <button type="submit">Enviar</button>
-                        </form>
-                    </div>
+                        <input type="hidden" name="accessKey" value="f0a35562-2e4c-4f51-b48f-ac4f67df03b4">
+                        <input type="text" name="name" placeholder="Coloca teu número aqui" required>
+                        <input type="text" name="email" placeholder="Pode colocar seu Email" required>
+                        <textarea name="message" placeholder="Manda um oi"></textarea  required>
+                        <input type="hidden" name="redirectTo" value="https://portfolio-delta-one-99.vercel.app/">
+                            <button type="submit" value="Submit">Enviar</button>
+                    </form>
                 </div>
+            </div>
             </section>
 
             <section class="footer_container">

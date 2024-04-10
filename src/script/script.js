@@ -150,9 +150,36 @@ iconesLink.forEach(icon => {
     });
 });
 
+// LINK PROJETOS
+document.addEventListener('DOMContentLoaded', function () {
+    const cards = document.querySelectorAll('.card');
+    const more = document.querySelector('.ver-mais');
+
+    more.addEventListener('click', function() {
+        window.open('https://github.com/VictorLimaS?tab=repositories', '_blank');
+    });
+
+    cards.forEach(function (card, index) {
+        card.addEventListener('click', function () {
+            let link;
+            if (index === 0) {
+                link = 'https://mirellioliveirainteriores.com.br';
+            } else if (index === 1) {
+                link = 'https://projeto-mercado-psi.vercel.app/';
+            } else if (index === 2) {
+                link = 'https://spotify-seven-rho.vercel.app/';
+            }
+
+            if (link) {
+                window.open(link, '_blank');
+            }
+        });
+    });
+});
+
 // LINK DO FOOTER
 document.addEventListener('DOMContentLoaded', function () {
-    const iconesLinkFooter = document.querySelectorAll('.social ion-icon');
+    const iconesLinkFooter = document.querySelectorAll('.card');
 
     iconesLinkFooter.forEach(icon => {
         icon.addEventListener('click', () => {
@@ -176,27 +203,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
 const menuBurguer = document.querySelector('.menu-toggle');
 const navMenu = document.querySelector('.nav_menu');
-let clicado = false;
 
 menuBurguer.addEventListener('click', function () {
     this.classList.toggle('open');
-});
-
-// APARECER O NAV
-
-menuBurguer.addEventListener('click', function () {
     navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
-    menuBurguer.classList.add('active');
 });
 
 navMenu.addEventListener('click', function () {
-    navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
-    clicado = true
-    if (clicado) {
-        menuBurguer.classList.remove('active');
-        menuBurguer.classList.toggle('open');
-    }
+    navMenu.style.display = 'none';
+    menuBurguer.classList.remove('open');
 });
+
 
 // MUDAR FOTO DO CONHECER 
 
