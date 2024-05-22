@@ -29,7 +29,7 @@
     color: white;
     border-radius: 5px;
     height: 21rem;
-    width: calc(33.33% - 20px); /* Ajusta a largura para que 3 cartões caibam em uma linha */
+    width: calc(33.33% - 20px);
     z-index: 0;
     cursor: pointer;
 }
@@ -41,8 +41,10 @@
 .projetos_container .content .content_cards .card img {
     background-color: white;
     width: 12rem;
+    height: 12rem; 
     margin-top: 15px;
     border-radius: 5px;
+    object-fit: cover; 
 }
 
 .projetos_container .content .content_cards .card h2 {
