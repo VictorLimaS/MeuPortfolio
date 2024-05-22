@@ -163,11 +163,11 @@ document.addEventListener('DOMContentLoaded', function () {
         card.addEventListener('click', function () {
             let link;
             if (index === 0) {
-                link = 'https://mirellioliveirainteriores.com.br';
+                link = 'https://github.com/VictorLimaS/Projeto-B2BIT';
             } else if (index === 1) {
-                link = 'https://projeto-mercado-psi.vercel.app/';
+                link = 'https://github.com/VictorLimaS/cell-phone?tab=readme-ov-file';
             } else if (index === 2) {
-                link = 'https://spotify-seven-rho.vercel.app/';
+                link = 'https://github.com/VictorLimaS/spotify';
             }
 
             if (link) {

@@ -3,7 +3,6 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-
 }
 
 .projetos_container .content .titulo {
@@ -16,9 +15,9 @@
     width: 55%;
 }
 
-
 .projetos_container .content .content_cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     width: 80%;
     margin: 5rem;
@@ -30,7 +29,7 @@
     color: white;
     border-radius: 5px;
     height: 21rem;
-    width: 15rem;
+    width: calc(33.33% - 20px); /* Ajusta a largura para que 3 cartões caibam em uma linha */
     z-index: 0;
     cursor: pointer;
 }
@@ -38,7 +37,6 @@
 .projetos_container .content .content_cards .card:hover {
     transform: translateY(-5px) translateX(2px); 
 }
-
 
 .projetos_container .content .content_cards .card img {
     background-color: white;
