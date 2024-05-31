@@ -132,7 +132,6 @@ document.addEventListener("DOMContentLoaded", function () {
 // LINK DA NAV BAR
 
 const iconesLink = document.querySelectorAll('.social_media .icon');
-
 iconesLink.forEach(icon => {
     icon.addEventListener('click', () => {
         let link;
@@ -200,7 +199,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // MENU HAMBUGUER 
-
 const menuBurguer = document.querySelector('.menu-toggle');
 const navMenu = document.querySelector('.nav_menu');
 
