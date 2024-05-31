@@ -167,7 +167,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 link = 'https://github.com/VictorLimaS/cell-phone?tab=readme-ov-file';
             } else if (index === 2) {
                 link = 'https://github.com/VictorLimaS/spotify';
-            }
+            }  else if (index === 3) {
+                link = 'https://github.com/VictorLimaS/Projeto-Mercado';
+            } else if (index === 4) {
+                link = 'https://github.com/VictorLimaS/Projeto-Mirelli';
+            } 
 
             if (link) {
                 window.open(link, '_blank');
