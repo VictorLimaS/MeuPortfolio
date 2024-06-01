@@ -10,7 +10,7 @@ Obrigado por visitar meu portfolio minimalista. Espero que você aprecie a clare
 
 
 <p align="center">
-    <img alt="Victor" src="/assets/img/readme.png" width="100%"
+    <img alt="Victor" src="/src/img/readme.png" width="100%"
 </p>
 
 ## 🛸 Tecnologias
