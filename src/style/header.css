@@ -27,9 +27,9 @@ header {
 
 header nav {
     display: flex;
+    padding: 2rem 0;
     flex-direction: column;
-    justify-content: center;
-    gap: 10rem;
+    justify-content: space-between;
     width: 100%;
     margin: 20px;
     border-radius: 5px;
