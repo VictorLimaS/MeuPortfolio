@@ -198,7 +198,7 @@
         background-color: rgb(0, 0, 0);
         color: white;
         border-radius: 5px;
-        height: 17rem;
+        height: 20rem;
         width: 20rem;
     }
 
@@ -281,7 +281,7 @@
     }
 
     .projetos_container .content .content_cards .card {
-        height: 16rem;
+        height: 20rem;
         width: 15rem;
     }
 
