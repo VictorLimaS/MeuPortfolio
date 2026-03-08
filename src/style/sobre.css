@@ -11,6 +11,8 @@
     flex-direction: column;
     align-items: center;
     padding-top: 3rem;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .sobre_container .content .fundo_text {

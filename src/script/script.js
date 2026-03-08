@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     btnDownload.addEventListener('click', function () {
         const link = document.createElement('a');
-        link.setAttribute('href', '/src/pdf/curriculo 2024.pdf');
+        link.setAttribute('href', '/src/pdf/curriculo.pdf');
         link.setAttribute('download', '');
         link.style.display = 'none';
         document.body.appendChild(link);
@@ -162,17 +162,10 @@ document.addEventListener('DOMContentLoaded', function () {
         card.addEventListener('click', function () {
             let link;
             if (index === 0) {
-                link = 'https://github.com/VictorLimaS/Projeto-B2BIT';
+                link = 'https://github.com/VictorLimaS/Voke';
             } else if (index === 1) {
                 link = 'https://github.com/VictorLimaS/cell-phone?tab=readme-ov-file';
-            } else if (index === 2) {
-                link = 'https://github.com/VictorLimaS/spotify';
-            }  else if (index === 3) {
-                link = 'https://github.com/VictorLimaS/Projeto-Mercado';
-            } else if (index === 4) {
-                link = 'https://github.com/VictorLimaS/Projeto-Mirelli';
             } 
-
             if (link) {
                 window.open(link, '_blank');
             }
@@ -224,8 +217,7 @@ document.addEventListener('DOMContentLoaded', function () {
         '/src/img/foto2.jpg',
         '/src/img/foto3.jpg',
         '/src/img/foto1.jpg',
-        '/src/img/foto4.jpg',
-        '/src/img/foto5.jpg'
+        '/src/img/foto4.jpg'
     ];
 
     let index = 0;

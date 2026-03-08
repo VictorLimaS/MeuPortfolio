@@ -3,6 +3,8 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .projetos_container .content .titulo {
@@ -31,6 +33,14 @@
     width: calc(50.33% - 80px);
     z-index: 0;
     cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    height: 320px;
+    padding: 10px;
 }
 
 .projetos_container .content .content_cards .card:hover {

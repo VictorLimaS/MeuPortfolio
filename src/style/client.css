@@ -1,0 +1,45 @@
+.clientes_container .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.clientes_container .content .titulo {
+    background-color: black;
+    font-size: 4rem;
+    padding: 20px 50px;
+    margin-top: 2rem;
+    border-radius: 5px;
+    color: white;
+    width: 55%;
+}
+
+.clientes_logos {
+    width: 90%;
+    margin: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    align-items: center;
+    justify-items: center;
+}
+
+.clientes_logos img {
+    max-width: 120px;
+    max-height: 60px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    transition: 0.3s;
+}
+
+.clientes_logos img:hover {
+    transform: scale(1.08);
+}
+
+.logo-ems {
+    max-width: 55px;
+}
