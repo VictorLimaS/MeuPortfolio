@@ -136,7 +136,7 @@ iconesLink.forEach(icon => {
     icon.addEventListener('click', () => {
         let link;
         if (icon.id === 'whats') {
-            link = 'https://wa.me/5513991822130';
+            link = 'https://wa.me/5513991654977';
         } else if (icon.id === 'linkedin') {
             link = 'https://www.linkedin.com/in/victor-lima1999/';
         } else {
